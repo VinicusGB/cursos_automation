@@ -5,7 +5,7 @@
 
 **Disponível:** <a href="https://www.youtube.com/playlist?list=PLOQgLBuj2-3LqnMYKZZgzeC7CKCPF375B">YouTube</a>
 
-## 1. Configurando seu ambiente Windows
+## 0. Configurando seu ambiente Windows
 ### Requisitos:
 - **Python:** 3.7+ (python.org)
 - **Editor:** Atom (atom.io)
@@ -17,7 +17,7 @@
 - **Chocolatey:** Gerenciador de pacotes do Windows
   - <a href="https://chocolatey.org/install#individual" target="_blank">Documentation</a>
 
-## 2. O que é Selenium?
+## 1. O que é Selenium?
 - ***É uma biblioteca, de software livre, sob licença Apache 2.0, que te ajuda a resolver trabalhos manuais e repetitivos usando o browser.***
   - **biblioteca:** conjunto de ferramentas
   - **software livre:** ferramenta gratuita, colaborativa
@@ -72,12 +72,49 @@ Permite que utilize diversos browsers ao mesmo tempo.
   - HUBS: 
   - NODES: 
 
-## 3. Introdução ao Python
+## 2. Introdução ao Python
 
-## 4. Minha primeira automação
+## 3. Minha primeira automação
 ### Entendendo o código para abrir o browser
 ### Teoria
-#### HTML
+#### HTML - HyperText Markup Language
 ##### Elementos
-#### DOM
+São tags HTML para o navegador identificar.
+  
+    <tag atributos=valor>
+      Conteúdo
+    </tag>
 
+#### DOM - Document Object Model
+Arquitetura DOM
+
+              DOM
+
+LOCATION  | DOCUMENT  | HISTORY
+
+1. LOCATION
+    - refresh
+2. DOCUMENT
+    - finds
+        - text / attribute('href')
+    - get
+    - title
+    -
+3. NAVEGACION HISTORY
+    - back
+    - foward
+
+## 4. Navegação e atributos
+### Busca aninhada
+
+São as buscas de tags aninhadas dentro de tags principais.
+
+### Atributos
+
+São as buscas por atributos de uma tag.
+
+### Navegação
+
+Na navegação temos o histórico de navegação da guia.
+Mas os histórico não registra apenas as requisições solicitadas para o servidor ele registra as alterações dos seletores css e JavaScript.
+Seria animações e ações.
