@@ -118,3 +118,35 @@ São as buscas por atributos de uma tag.
 Na navegação temos o histórico de navegação da guia.
 Mas os histórico não registra apenas as requisições solicitadas para o servidor ele registra as alterações dos seletores css e JavaScript.
 Seria animações e ações.
+
+## 5. Procurando e interagindo com elementos
+### Atributos
+#### Globais
+Atributos comuns a todas as tags do html.
+#### CSS
+- id: nome único para cada WEBElement
+  - _find_element_by_id_
+- class: nome de um grupo de WEBElement
+  - _find_element_by_class_name_
+- autofocus: página quando carrega faz um autofoco no elemento
+- acesskey: adiciona um atalho do teclado
+- title: texto para mostrar quando o mouse é posicionado em cima
+- hidden: atributo para esconder a tag
+- label: campo de texto
+- form: tag que agrupam os elementos de inputs dos usuários:
+  - name: atributo que nomeia um elemento de um formulário `<form>`
+    - _find_element_by_name_
+  - input: tag campo onde o usuário pode inserir dados
+  - target: atributo que diz qual aba
+    - self: mesma aba
+    - blank: nova aba
+  - action: o que fazer com a requisição
+    - url
+  - method: 
+    - get: obter dados
+    - post: enviar dados
+### Interagir com o site
+- send_keys: serve para adicionar texto nos formulários
+  - object.send_keys('texto no campo')
+- click: serve para clicar em elementos do meu form
+  - object.click()
