@@ -430,3 +430,56 @@ DevTools listening on ws://localhost:50967/devtools/browser/9761e274-74df-4e07-a
 1651596731479	Marionette	INFO	Stopped listening on port 50972
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651664882209	geckodriver	INFO	Listening on 127.0.0.1:53495
+1651664885159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53496" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileqCgwlk"
+1651664885758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileqCgwlk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53496/devtools/browser/db1c71c7-85d8-4fea-8a8a-0239e0b78d0e
+1651664887553	Marionette	INFO	Listening on port 53501
+1651664887828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651664889047	Marionette	INFO	Stopped listening on port 53501
+1651678867806	geckodriver	INFO	Listening on 127.0.0.1:58011
+1651678870792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58012" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileC0uLIo"
+1651678871101	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileC0uLIo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58012/devtools/browser/9d73fc73-1a71-4b99-83be-c82211189e54
+1651678872741	Marionette	INFO	Listening on port 58018
+1651678872855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://curso-python-selenium.netlify.app/aula_04.html, line 1: ReferenceError: brython is not defined
+1651678910953	Marionette	INFO	Stopped listening on port 58018
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1651679002315	geckodriver	INFO	Listening on 127.0.0.1:58185
+1651679005270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58186" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofile7ATpMd"
+1651679005570	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofile7ATpMd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58186/devtools/browser/a0dda417-7f30-472f-bc01-10f8687374f7
+1651679007161	Marionette	INFO	Listening on port 58192
+1651679007336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.petz.com.br/, line 835: SyntaxError: expected expression, got ')'
+JavaScript warning: https://www.petz.com.br/, line 1106: unreachable code after return statement
+JavaScript warning: https://www.petz.com.br/, line 1106: unreachable code after return statement
+JavaScript warning: https://www.petz.com.br/, line 8307: unreachable code after return statement
+JavaScript error: https://js.appboycdn.com/web-sdk/2.4/appboy.min.js, line 24: Error: Appboy must be initialized before calling methods.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.petz.com.br"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.petz.com.br"
+1651679026344	Marionette	INFO	Stopped listening on port 58192
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PSessionStorageObserver::Msg_Observe) Channel closing: too late to send/recv, messages will be lost
+

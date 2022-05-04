@@ -1,0 +1,75 @@
+1651684099081	geckodriver	INFO	Listening on 127.0.0.1:62173
+1651684102030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62174" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofiled8A7mi"
+1651684102332	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofiled8A7mi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62174/devtools/browser/9d63d4ed-b4e2-4fe9-b632-bc38cb439e93
+1651684104123	Marionette	INFO	Listening on port 62182
+1651684104237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1651684358360	Marionette	INFO	Stopped listening on port 62182
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ch.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62399/devtools/browser/dfdbecd7-62bd-4ab3-98f7-8cbaac989fc7
+1651684340372	Marionette	INFO	Listening on port 62405
+1651684340490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651684353417	Marionette	INFO	Stopped listening on port 62405
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1651684479771	geckodriver	INFO	Listening on 127.0.0.1:62544
+1651684482738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62545" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofilevKXrff"
+1651684483039	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofilevKXrff\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62545/devtools/browser/1611b7ff-85f5-4b58-a024-158f872870f9
+1651684484777	Marionette	INFO	Listening on port 62551
+1651684484811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1651685774934	Marionette	INFO	Stopped listening on port 62551
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651685868181	geckodriver	INFO	Listening on 127.0.0.1:63538
+1651685871138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63539" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileRWgEyl"
+1651685871448	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileRWgEyl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63539/devtools/browser/c6864587-02b0-47a0-a4c6-d436552b9c4d
+1651685873218	Marionette	INFO	Listening on port 63546
+1651685873304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1651686275234	Marionette	INFO	Stopped listening on port 63546
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1651686286216	geckodriver	INFO	Listening on 127.0.0.1:63886
+1651686289215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63887" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileaGwpeP"
+1651686289508	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofileaGwpeP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63887/devtools/browser/2a2c0fcd-e010-4119-aa97-8a4750266e48
+1651686291167	Marionette	INFO	Listening on port 63894
+1651686291260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.docidadesp.imprensaoficial.com.br"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
