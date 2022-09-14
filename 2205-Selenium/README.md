@@ -601,3 +601,83 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
 ### Exercícios
 09: https://selenium.dunossauro.live/exercicio_09.html
 10: https://selenium.dunossauro.live/exercicio_10.html
+
+## 10. Excepted conditions | Condições especiais para esperas
+### Roteiro
+- Esperas built-in
+- Eventos
+picpay.me/dunossauro | apoia.se/livedepython
+### Expected conditions
+https://www.selenium.dev/selenium/docs/api/py/_modules/selenium/webdriver/support/expected_conditions.html
+
+São classes prontas para esperas “comuns”, “usuais”. E eu gosto de dividir elas por categorias (Não oficial)
+- Existência do elemento
+- Visibilidade do elemento
+- Navegação
+- Verificação de texto
+- Janelas e frames
+
+#### Visibilidade do elemento / Existência do elemento
+- EC
+  - Visibilidade e existência
+    - element_to_be_clickable
+  - Visível / invisível
+    - por elemento: visibity_of / invisibility_of_element
+    - por locator: visibity_of_element_located / invisibity_of_element_located
+    - para vários elementos: visibility_of_any_elements_located / visibility_of_all_elements_located
+  - Ativo / Inativo
+    - por estado: staleness_of
+
+### Existência do elemento
+
+Talvez o tipo de espera mais comum. Saber se o elemento está na tela, ou existe na tela.
+Isso evita de tentar executar uma operação em um elemento que pode ainda não estar disponível.
+Checando com expected conditions
+
+### CODEEEEEEEEEEE - aula 10 a
+https://selenium.dunossauro.live/aula_10_a.html
+
+### Visibilidade do elemento
+
+Aqui basicamente queremos saber se o elemento está desenhado na tela ou não (aula de drawing/eventos) e também se ele está ativo ou não.
+- Exemplos:
+  - O elemento pode não ter sido desenhado
+  - O elemento pode ter sido desenhado mas estar inativo
+
+### CODEEEEEEEEEEE - aula 10 b
+https://selenium.dunossauro.live/aula_10_b.html
+
+### Navegação
+
+Esperas baseadas em navegação
+
+- EC
+  - URL corrente é
+    - url_changes
+    - url_to_be
+  - URL corrente contém
+    - url_matches
+    - url_contains
+  - Título é
+    - title_is
+    - title_contains
+
+### CODEEEEEEEEEEE - aula 10 c
+https://selenium.dunossauro.live/aula_10_c.html
+
+### Verificação de texto
+
+- Esperas por texto
+  - EC
+    - text_to_be_present_in_element
+    - text_to_be_present_in_element_value
+
+### CODEEEEEEEEEEE - aula 10 d
+https://selenium.dunossauro.live/aula_10_d.html
+
+### Exercícios
+- Refazer Exercício 3 (sim pela terceira vez)
+- Refazer Exercício 10 (com as classes prontas)
+- Exercício 11
+
+

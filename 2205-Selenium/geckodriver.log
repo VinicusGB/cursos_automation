@@ -552,3 +552,12 @@ WebDriver BiDi listening on ws://localhost:50966
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofile5JQEwZ\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:50966/devtools/browser/558e78b9-108d-4807-9c61-054aebbf3bec
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1663164587288	geckodriver	INFO	Listening on 127.0.0.1:53803
+1663164590263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53804" "-no-remote" "-profile" "C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofilej5FPtf"
+1663164591029	Marionette	INFO	Marionette enabled
+1663164591033	Marionette	INFO	Listening on port 53809
+WebDriver BiDi listening on ws://localhost:53804
+1663164591385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VINICI~2.GOM\\AppData\\Local\\Temp\\rust_mozprofilej5FPtf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53804/devtools/browser/e22a3f52-7c65-499e-8a5f-cc0e9255ec08
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
