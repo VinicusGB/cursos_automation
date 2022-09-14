@@ -508,3 +508,96 @@ https://github.com/SeleniumHQ/selenium/issues/8345
 #### Exercício 8
 https://selenium.dunossauro.live/caixinha
 ● Dizer todas as cores possíveis da caixinha
+
+## 9. Esperando elementos serem carregados
+### Roteiro
+- Carregamento da página
+  - Normal
+  - Async
+  - Defer
+- Tipos de esperas
+  - Implícita
+  - Explicita
+- Wait
+- By
+- Locators
+- Esperas personalizadas
+
+### Carregamento da página
+https://selenium.dunossauro.live/aula_09_a.html
+https://www.youtube.com/watch?v=BMuFBYw91UQ
+
+### Tipos de espera
+https://selenium.dunossauro.live/aula_09_a.html
+
+- O Selenium conta com dois tipos de espera:
+  - Implícitas
+    - Espera todos os elementos, eventos, navegação, com um tempo padrão
+  - Explícitas
+    - Selenium disponibiliza um range de waits prontos
+    - Customizável
+      - Em tipos de espera
+      - É possível criar suas próprias esperas
+    - Reutilizável
+
+### Bora pro código, jovens
+https://selenium.dunossauro.live/aula_09_a.html
+
+### Wait implícito
+- Prós
+  - Funciona em cenários Flaky
+  - Não se preocupe, nós vamos esperar
+- Contras
+  - Segura a aplicação por mais tempo
+  - Tudo é esperado tendo o mesmo tempo como base
+  - Não funciona para elementos específicos
+  - Se algo der errado, vai demorar o tempo do wait para saber
+
+### WebDriverWait
+#### Usando o WDW
+https://selenium.dunossauro.live/aula_09_a.html
+#### Agora vai - aula 09 a
+https://selenium.dunossauro.live/aula_09_a.html
+
+### functools partial
+
+Parametrizando esperas
+Fizemos esperas “especializadas”. Isso é complicado, pois todo código precisa ser feito “mais de uma vez”.
+A solução é adicionar um novo parâmetro.
+
+UTILIZANO FUNCTUOOLS PARTIALS, que são funções para parametrizar outras funções.
+
+### By
+https://www.selenium.dev/selenium/docs/api/py/_modules/selenium/webdriver/common/by.html
+
+O By nos auxilia a deixar o código mais “assertivo”. Ele é comumente usado em conjunto o `wb.find_element`. Assim nos ajuda a parametrizar mais as nossas funções.
+
+#### E volta cão arrependido
+https://selenium.dunossauro.live/aula_09_a.html
+
+### Esperas com classes
+
+Para fãs de OO
+Aqui evitamos o uso do partial usando `__call__`.
+Não é a minha abordagem preferida, mas é a tradicional em relação a lib.
+
+### Locators
+
+Locators são maneiras de unir o By a string do elemento.
+Porém esse conceito é trazido do selenium java e faz pouco ou nenhum sentido usando em python.
+Resumidamente um Locator é uma tupla com o By e a string do elemento
+
+Locators LOCATORS?
+Locators LOCATORS?
+Sério, última vez dessa página...
+https://selenium.dunossauro.live/aula_09_a.html
+
+Agora vamos tentar usar em outra página
+https://selenium.dunossauro.live/aula_09.html
+
+#### class unclick
+https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events
+
+### Exercícios
+09: https://selenium.dunossauro.live/exercicio_09.html
+10: https://selenium.dunossauro.live/exercicio_10.html
