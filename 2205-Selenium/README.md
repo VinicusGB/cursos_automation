@@ -680,4 +680,119 @@ https://selenium.dunossauro.live/aula_10_d.html
 - Refazer Exercício 10 (com as classes prontas)
 - Exercício 11
 
+## 11. Janelas, frames e coisas mais
 
+### Roteiro
+
+- Alertas
+  - Alertas
+  - Confirmações
+  - Prompts
+- Janelas e Abas
+- iFrames
+
+- janela
+  - location
+  - documento
+    - html
+      - head
+      - body
+        - elemento | elemento | elemento | elemento
+          - elemento | elemento
+  - histórico
+
+### Alertas
+
+Alertas são **_elementos relativos as janelas_**. São elementos que **_não estão necessariamente presentes no DOM_**.
+
+Existem 3 tipos de “alertas” e cada um tem sua maneira própria de interação com selenium:
+- alert
+- prompt
+- confirm
+
+#### Contexto de alertas
+
+selenium.webdriver.common.alert.Alert
+
+Métodos alert:
+- accept
+- dismiss
+- send_keys
+- text
+
+### Bora codar esse alerta - aula 11 a
+https://selenium.dunossauro.live/aula_11_a
+
+### Waits em alerts - Aguardado alertas
+
+Como tudo, temos possíveis problemas com possíveis tempos.
+Existe uma condição pronta para alertas e ela ainda retorna o alerta para facilitar.
+
+### Janelas e abas
+
+ABAS = JANELAS
+POPUPS = JANELAS
+
+https://selenium.dunossauro.live/aula_11_b.html
+https://selenium.dunossauro.live/aula_11_c.html
+
+- janelas
+  - window_handles
+    - Número de ID
+    - janela 1
+      - current_window_handle
+    - janela 2
+
+### Codar um tikin com popups - aula 11 b
+https://selenium.dunossauro.live/aula_11_b.html
+
+### Codar um tikin com abas - aula 11 c
+https://selenium.dunossauro.live/aula_11_c.html
+
+### Abrindo abas
+- usando script
+  - browser.execute_script('window.open("")')
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/Window
+
+
+### Waits em Janelas
+
+Esperas para janelas
+- EC
+  - Uma janela nova?
+    - new_window_is_opened
+  - O número de janelas deve ser?
+    - number_of_windows_to_be
+
+### Vamos codar a espera - aula 11 b
+https://selenium.dunossauro.live/aula_11_b.html
+
+### Iframes
+
+https://selenium.dunossauro.live/aula_11_d.html
+
+- janela
+  - documento
+    - html
+      - body
+        - IFRAME
+          - documento
+            - html
+              - body
+                - elemento
+                - elemento
+          - elemento
+          - elemento
+
+
+### Bora migrar de DOM? - aula 11 d
+https://selenium.dunossauro.live/aula_11_d.html
+
+### Waits Iframes - Esperas para janelas
+- EC
+  - Tem um frame disponível?
+    - frame_to_be_available_and_switch_to_it
+  
+### Exercícios
+https://selenium.dunossauro.live/exercicio_12.html
