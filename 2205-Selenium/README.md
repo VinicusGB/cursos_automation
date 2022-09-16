@@ -797,7 +797,7 @@ https://selenium.dunossauro.live/aula_11_d.html
 ### Exercícios
 https://selenium.dunossauro.live/exercicio_12.html
 
-## 12. Page objects
+## 12-13. Page objects
 
 https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
 
@@ -812,3 +812,108 @@ https://www.selenium.dev/documentation/test_practices/encouraged/page_object_mod
 
 ### Vamos olhar nosso caso de uso
 https://selenium.dunossauro.live/todo_list.html
+
+## 14 - Selenium Grid
+
+### Selenium
+https://www.seleniumhq.org/
+
+Selenium WebDriver
+web drivers
+Nem tudo são flores!
+
+#### Repositório Integração Contínua
+
+- Alan Turing
+- Ada Lovelace
+- Annie Easley
+- Barbara Liskov
+- Grace Hopper
+
+Annie Easley: Bá, qual a versão do Gecko driver que tenho que usar pra funcionar com o Firefox 57?
+Barbara Liskov: Você tem que ir no site de releases do gecko pra saber! :(
+
+### Selenium Grid
+https://www.seleniumhq.org/
+Selenium Grid (por selenium*)
+O Selenium Grid leva o WebDriver a outro nível, executando testes em muitas máquinas ao mesmo tempo, reduzindo o tempo necessário para testar em vários navegadores e sistemas operacionais.
+- Suporta vários navegadores, versões e sistemas operacionais
+- Reduzir o tempo de execução
+- Paraleliza execuções
+
+* https://www.selenium.dev/projects/
+
+### HUB
+Time Nodes
+Automações
+Bora sujar as mãos!
+
+#### Rede
+https://www.selenium.dev/downloads/
+
+#### Deixando o hub disponível no terminal
+
+    java -jar .\selenium-server-standalone-<versão>.jar -role hub
+
+    java -jar .\selenium-server-standalone-3.141.59.jar -role hub
+
+#### Instalando o java no windows
+
+    choco install jdk8
+
+#### Onde o server fica disponível?
+
+    localhost:4444
+
+#### Verificar o IP da máquina, no terminal:
+
+    ipconfig
+
+    browser = Remote(
+     command_executor='your-remote-webdriver-url',
+     desired_capabilities=capabilities,
+    )
+
+#### Capabilities (básico essencial)
+| chave | tipo | faz o que? | Padrão |
+---
+| browserName | string | Diz para o grid qual o browser que você quer | N/A |
+version | string | Diz para o grid qual a versão do browser que você escolheu | QUALQUER |
+platform | string | Diz em qual plataforma você quer rodar (WINDOWS, LINUX, MAC, XP, VISTA, ANDROID) | ANY |
+
+    capabilities = {
+    “browserName”: “internet explorer”
+    }
+    Capabilities (básico essencial)
+    capabilities = {
+    “browserName”: “internet explorer”
+    }
+    browser = Remote(
+    command_executor='your-remote-webdriver-url',
+    desired_capabilities=capabilities,
+    )
+
+### NODE
+
+#### Deixando o hub disponível
+    java -jar .\selenium-server-standalone-3.141.59.jar -role node
+
+
+#### Capabilities para servir (básico essencial)
+
+    node_config.json
+
+Deixando o hub disponível
+
+    java -jar .\selenium-server-standalone-3.141.59.jar -role node -nodeConig node_config.json
+
+### Nem tudo são flores!
+1. Não existe uma maneira programática de montar essa arquitetura. **(Repetir operação em todos os nodes com SOs diferentes)**
+- Instalar o java
+- Baixar o selenium
+- Baixar os web drivers
+- Desempacotar os web drivers
+- Instalar todas as versões de browsers correspondentes
+2. Browsers sem foco
+3. Custo para manter a infra
+4. Não suporta bem mobile*
