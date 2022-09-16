@@ -154,5 +154,3 @@ wdw = WebDriverWait(browser, 30)
 ## uninstall_addon
 ## unpin
 ## window_handles
-
-

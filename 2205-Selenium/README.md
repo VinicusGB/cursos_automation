@@ -796,3 +796,19 @@ https://selenium.dunossauro.live/aula_11_d.html
   
 ### Exercícios
 https://selenium.dunossauro.live/exercicio_12.html
+
+## 12. Page objects
+
+https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
+
+### Roteiro
+- DSL
+- Padrão Page Object
+
+### DSL - Domain-Specific Languages
+- Mini Idioma
+- Dá nomes a elementos existentes
+- Características do domínio
+
+### Vamos olhar nosso caso de uso
+https://selenium.dunossauro.live/todo_list.html
