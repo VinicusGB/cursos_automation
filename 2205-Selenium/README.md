@@ -3,7 +3,7 @@
 
 **Professor:** Eduardo Mendes
 
-**Disponível:** <a href="https://www.youtube.com/playlist?list=PLOQgLBuj2-3LqnMYKZZgzeC7CKCPF375B">YouTube</a>
+**Disponível:** <a href="   ">YouTube</a>
 
 ## 0. Configurando seu ambiente Windows
 ### Requisitos:
@@ -875,7 +875,9 @@ https://www.selenium.dev/downloads/
     )
 
 #### Capabilities (básico essencial)
-| chave | tipo | faz o que? | Padrão |
+
+
+### | chave | tipo | faz o que? | Padrão |
 ---
 | browserName | string | Diz para o grid qual o browser que você quer | N/A |
 version | string | Diz para o grid qual a versão do browser que você escolheu | QUALQUER |
@@ -918,69 +920,62 @@ Deixando o hub disponível
 3. Custo para manter a infra
 4. Não suporta bem mobile*
 
-# 15 - Selenium Docker
-picpay.me/dunossauro | apoia.se/livedepython
-picpay.me/dunossauro | apoia.se/livedepython
-Roteiro
-● Docker?
-● Selenium grid
-● Docker compose com selenium grid
-● Selenoid
-● Integração contínua
-Disclaimer
+## 15. Selenium Docker
+
+### Roteiro
+- Docker?
+- Selenium grid
+- Docker compose com selenium grid
+- Selenoid
+- Integração contínua
+
+### Disclaimer
 https://www.youtube.com/user/linuxtipscanal
 https://leanpub.com/dockerparadesenvolvedores
 https://www.youtube.com/PunkdoDevOps
-Entendendo a 
-estrutura do grid
 
-HUB
+### Entendendo a estrutura do grid
+
+#### HUB
 Time Nodes
 Automações
 Selenium Docker
 https://github.com/SeleniumHQ/docker-selenium
 https://github.com/SeleniumHQ/docker-selenium
-HUB
+
 Latest versions Latest -1 versions Latest -2 versions
-HUB
 Latest versions Latest -1 versions Máquinas reais
-Docker compose
+
+#### Docker compose
 https://github.com/SeleniumHQ/docker-selenium
 
-$ docker-compose up --build
-$ docker-compose scale firefox=5
-$ docker-compose scale chrome=3
+    $ docker-compose up --build
+    $ docker-compose scale firefox=5
+    $ docker-compose scale chrome=3
+
 Nem tudo são flores!
-Problemas
-Consumo do grid web
-● Cada container exige ~150MB para ficar em modo de espera
-● Um container conectado consome ~300MB
-● + xxxMB da abertura da página
-Não é tolerante a falhas
-Não tem gerenciamento de usuários
-$ docker-compose scale firefox=50
-Selenoid
+##### Problemas
+- Consumo do grid web
+  - Cada container exige ~150MB para ficar em modo de espera
+  - Um container conectado consome ~300MB
+  - + xxxMB da abertura da página
+- Não é tolerante a falhas
+- Não tem gerenciamento de usuários
+
+    $ docker-compose scale firefox=50
+
+### Selenoid
 https://github.com/aerokube/selenoid
-Selenoid
-É um projeto iniciado em 2017, pela Aerokube, que fornece uma poderosa 
-implementação em Go do Selenium hub original. Com as mesmas chamadas, 
-porém gerenciando os containers para você.
-Annie Easley
-$ curl -s https://aerokube.com/cm/bash
-$ ./cm selenoid start
-Annie Easley
-driver = webdriver.Remote(
- command_executor="http://localhost:4444/wd/hub",
- desired_capabilities=ff_capabilities
-)
-Annie Easley
-Annie Easley
-driver = webdriver.Remote(
- command_executor="http://localhost:4444/wd/hub",
- desired_capabilities=gc_capabilities
-)
+
+É um projeto iniciado em 2017, pela Aerokube, que fornece uma poderosa implementação em Go do Selenium hub original. Com as mesmas chamadas, porém gerenciando os containers para você.
+
+    $ curl -s https://aerokube.com/cm/bash
+    $ ./cm selenoid start
+
+    driver = webdriver.Remote(
+     command_executor="http://localhost:4444/wd/hub",
+     desired_capabilities=ff_capabilities
+    )
+
 Tem uma UI maneira e moderna
 https://aerokube.com/selenoid-ui/latest/
-CIIIIIIIII
-picpay.me/dunossauro | apoia.se/livedepython
-picpay.me/dunossauro | apoia.se/livedepython
